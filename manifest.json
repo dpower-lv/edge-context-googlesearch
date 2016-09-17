@@ -1,0 +1,21 @@
+{
+    "name": "Google search from context menu",
+    "author": "dpower",
+    "description": "Allows to search for selected text and images with Google Search via context menu options",
+    "icons": {
+        "16": "google-search.png",
+        "32": "google-search.png",
+        "64": "google-search.png",
+        "128": "google-search.png"
+    },
+    "manifest_version": 2,
+    "permissions": [
+        "contextMenus"
+    ],
+    "version": "0.1",
+    "minimum_edge_version": "37.14316.1000.0",
+    "background": {
+        "scripts": ["magic.js"],
+        "persistent": true
+    }
+}
